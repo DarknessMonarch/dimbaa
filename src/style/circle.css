@@ -1,0 +1,18 @@
+@media screen {
+  .circle-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 360%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .circle-container {
+    box-shadow: var(--box-shadow-style);
+  }
+}

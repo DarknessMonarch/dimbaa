@@ -1,0 +1,212 @@
+@media screen {
+  
+    .login-container {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        position: fixed;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: var(--light-color); 
+    
+    }
+    
+    .login-c {
+        flex: var(--auth-width);
+    }
+
+    .login-adv {
+        flex: calc(100% - var(--auth-width));
+    }
+
+    
+    .login-c {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .login-form-container {
+        gap: 30px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form-container {
+        background-color: var(--background-color);
+        box-shadow: var(--box-shadow-style);
+        justify-content: space-around;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 30px 20px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        
+    }
+
+    
+    .form-container a {
+        font-size: .8rem;
+        text-decoration: underline;
+        color: var(--secondary-color);
+    }
+
+    .input-field {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field label {
+        font-size: .8rem;
+        font-weight: 100px;
+    }
+
+    .error-input {
+        font-size: .8rem;
+        color:var(--primary-darken-color) ;
+    }
+
+    .login-i {
+        padding: 14px;
+        border-radius: 8px;
+        background-color: var(--light-color);
+        border: 1px var(--dark-color);
+    }
+
+    .logo-tplb {
+        height: 150px;
+    }
+
+    .footer-login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-login h1 {
+        font-size: 1rem;
+        font-weight: 300px;
+    }
+
+    .footer-login span {
+        padding: 2px;
+        color: var(--primary-color);
+    }
+
+    .tff-logo {
+        top: 5px;
+        position: relative;
+    }
+    
+    .tff-logo {
+        height: 50px;
+    }
+    
+   
+    .login-adv {
+        display: none;
+    }
+    
+    
+    .banner-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+        
+    }
+
+    .btn-i {
+        display: flex;
+    }
+
+    .login-btn {
+        width: 100%;
+        display: flex;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        color: var(--background-color);
+        background-color: var(--primary-color);
+    }
+
+    .login-btn:hover {
+        background-color: var(--primary-darken-color);
+    }
+
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .login-c {
+        justify-content: flex-start;
+    }
+
+    .login-form-container {
+        width: 70%;
+        height: 60%;
+   
+    }
+
+    .form-container {
+        padding: 40px 20px;
+        gap: 15px;
+    }
+
+    .login-i {
+        padding: 15px;
+    }
+
+    .logo-tplb {
+        height: 200px;
+    }
+
+    .login-adv {
+        display: flex;
+    }
+
+    .footer-login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-login h1 {
+        font-size: .8rem;
+        font-weight: 300px;
+    }
+
+    .login-btn {
+        padding: 14px;
+    }
+
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

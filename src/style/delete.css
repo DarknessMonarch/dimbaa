@@ -1,0 +1,23 @@
+.delete-player-list {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delete-player-list h1 {
+    font-size: 1.5rem;
+
+}
+
+.delete-player-list p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-player {
+    gap: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,43 @@
+@media screen {
+    .app-container {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        position: fixed;
+        overflow: hidden;
+        flex-direction: column-reverse;
+    }
+    
+    .side {
+        z-index: 1;
+        flex: var(--side-bar-mobile-width);
+        box-shadow: var(--search-shadow);
+
+    }
+    
+    .main {
+        overflow-y: auto;
+        flex: calc(100% - var(--side-bar-mobile-width));
+    }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .app-container {
+        flex-direction: row;
+    }
+    
+    .side {
+        overflow-y: hidden;
+        flex: var(--side-bar-width);
+    }
+    
+    .main {
+        flex: calc(100% - var(--side-bar-width));
+    }
+}
+
+

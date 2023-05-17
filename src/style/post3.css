@@ -1,0 +1,167 @@
+@media screen {
+    .post-wr2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    
+    .wr2-p {
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .circle-rds {
+        background-color: var(--primary-color);
+        position: relative;
+
+    }
+
+    .icon-info-rds {
+        width: 30px;
+        height: 30px;
+        color: var(--background-color);
+    }
+
+    .wr2-p h1 {
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .post-qr {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pos1 {
+        gap: 20px;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pop-s {
+        width: 70%;
+    }
+
+    .pop-pos {
+        width: 90%;
+    }
+
+    .pos-dn {
+        width: 100%;
+        padding: 5px;
+
+    }
+
+    .pos-naa {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .w-in {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pos-dissapper {
+        display: none;
+    }
+
+    .pos1 h1 {
+        font-weight: 100;
+        font-size: .8em;
+    }
+
+    .pos1 p {
+        font-size: .8rem;
+    }
+
+    .pos1 p span {
+        font-weight: 600;
+        padding-right: 5px;
+        color: var(--primary-color);
+    }
+
+    .a-container {
+        gap: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .a-wrap {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-input-c {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apc-i {
+        width: 100%;
+    }
+
+    .apc-s {
+        width: 100px;
+    }
+
+}
+
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) { 
+ 
+    
+    .circle-rds {
+        position: relative;
+        left: 370px;
+
+    }
+
+    .pop-pos {
+        width: 50%;
+    }
+
+    .pos-dn {
+        width: 60%;
+        border-radius:5px ;
+        border: 1px solid var(--light-color);
+    }
+
+    .wpe {
+        border: 1px solid var(--light-color);
+
+    }
+    .pos-naa {
+        overflow: visible;
+    }
+
+    .pos-dissapper {
+        display: flex;
+    }
+
+    
+    .apc-s {
+        width: 300px;
+    }
+
+   
+}

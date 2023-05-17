@@ -1,0 +1,70 @@
+@media screen {
+    .specific-content {
+        height: 100%;
+    }
+    
+    .tb-specific {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .tb-specific tr {
+        text-align: center;
+    }
+
+    .Sc-p {
+        gap: 15px;
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+    }
+    
+    .user-c-s {
+        width: 100%;
+        padding: 10%;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sp-dbtn {
+        background-color: var(--primary-color);
+    }
+
+    .icon-dta {
+        height: 30px;
+        width: 40px;
+        transform: scaleX(-1);
+        color: var(--background-color);
+
+    }
+
+    .img-stdium {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+    
+    .user-c-s h1 {
+        font-size: 1rem;
+        text-align: center;
+    }   
+}
+
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+.user-c-s {
+    width: 74%;
+    padding: 10%;
+
+}
+
+}

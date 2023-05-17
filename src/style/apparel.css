@@ -1,0 +1,70 @@
+@media screen {
+.contained-apparel {
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.apparel-c {
+    display: flex;
+    justify-content: center;
+}
+
+.apparel-container {
+    gap: 10px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fap {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+    object-position: center center;
+
+
+}
+
+
+.apparel-d {
+    width: 100%;
+    height:280px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.apparel-n {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-ap {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: .8rem;
+    border-radius: 5px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .img-fap {
+        width: 400px;
+        height: 100%;
+        border-radius: 8px;
+        object-fit: contain;
+    
+    }
+}

@@ -1,0 +1,57 @@
+@media screen {
+
+    
+.no-notification {
+    padding: 50% 0;
+    text-align: center;
+    color: var(--dark-color);
+
+}
+
+
+.notification-content {
+    padding: 20px 0;
+    display: flex;
+    height: 100%;
+
+}
+
+.notification-wrapper {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    color: var(--dark-color);
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+.notification-msg {
+    width: 90%;
+    display: flex;
+    line-break: normal;
+    align-items: center;
+    height: fit-content;
+}
+
+.notification-msg p {
+    line-break: anywhere;
+    padding: 0 10px;
+}
+
+.icon-no {
+    width: 50px;
+    height: 50px;
+    color: var(--primary-color);
+}
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .no-notification {
+        padding: 20% 0;
+    }
+
+}

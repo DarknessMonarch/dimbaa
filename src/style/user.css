@@ -1,0 +1,151 @@
+@media screen {
+  .pop-adduser-form {
+    height: 90%;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .userform-wrapper {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .separator-p {
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .signature-p {
+    outline: none;
+    border: 2px solid var(--background-color);
+    background-color: var(--background-color);
+  }
+
+  .signature-p:hover {
+    border: 2px solid var(--background-color);
+
+  }
+
+  .sep-r {
+    display: flex;
+    width: 100%;
+  }
+
+  .spe-pe {
+    display: flex;
+    justify-content: space-between;
+  }
+  .userform-wrapper span {
+    color: rgb(216, 8, 8);
+  }
+
+  .userform-input {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .user-label {
+    font-size: 0.9rem;
+  }
+  .icon-pic {
+    height: 30px;
+  }
+
+
+  .user-input {
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+  }
+
+  .user-input::placeholder {
+    color: var(--dark-color);
+  }
+
+  .user-input:hover {
+    border: 1px solid var(--primary-color);
+  }
+
+  .user-btn-f {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-f {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    justify-content: center;
+  }
+
+  .a-u {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  .r-u {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+
+  /* feedback css */
+  .feed-c {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  .feed-c h1 {
+    color: rgb(158, 7, 7);
+  }
+
+  .feed-c p {
+    color: rgb(4, 107, 4);
+  }
+
+  .icon-pic-d {
+    border: 2px dotted var(--dark-color);
+    color: var(--dark-color);
+    height: 100px;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .pop-adduser-form {
+    display: flex;
+  }
+
+  .user-input {
+    padding: 10px 15px;
+  }
+
+  .btn-f {
+    border-radius: 8px;
+    padding: 10px 20px;
+  }
+
+  .signature-p {
+    outline: none;
+    border: 2px solid var(--background-color);
+  }
+
+  .signature-p:hover {
+    border: 2px solid var(--background-color);
+
+  }
+
+}

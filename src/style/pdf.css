@@ -1,0 +1,281 @@
+@media screen {
+
+.pdf-wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 991;
+    position: fixed;
+    overflow: auto;
+    background-color: #ffff;
+}
+  .pdf-container {
+    padding: 10px;
+  }
+  .pdf-header {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tplb-pdf {
+    height: 50px;
+  }
+
+  .tff-pdf,
+  .nbc-logo {
+    height: 60px;
+  }
+
+  .pdf-header-info {
+    display: flex;
+    text-align: end;
+    align-items: center;
+  }
+
+  .inner-header {
+    font-size: 0.8rem;
+  }
+
+  .report-color {
+    color: var(--general-color);
+  }
+
+  .inner-header h1 {
+    font-size: 1rem;
+    color: var(--general-color);
+  }
+
+  .assessor-header h1 {
+    color: var(--assessor-color);
+  }
+
+  .post-header h1 {
+    color: var(--post-color);
+  }
+
+
+  .lineup-header-i {
+    font: 1.2rem;
+    text-align: center;
+    color: var(--lineup-color);
+  }
+
+  .inner-header h2 {
+    font-size: 1rem;
+    color: var(--pdf-color);
+  }
+
+  .assessor-header h1 {
+    color: var(--assessor-color);
+  }
+
+  .referee-header h1 {
+    color:  var(--referee-color);
+  }
+
+  .pre-header h1 {
+    color:  var(--pre-color);
+  }
+
+
+  .pdf-details {
+    gap: 30px;
+    display: flex;
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+   .inner-pdf-details {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+/* .pdf-referee-d {
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+  .pdf-title {
+    border-bottom: 50px solid var( --general-color);
+    border-right: 30px solid transparent;
+    color: var(--background-color);
+    padding-bottom: 0;
+    font-size: 0.8rem;
+    display: flex;
+    padding: 10px;
+    width: 70%;
+    height: 0;
+  }
+
+  .lineup-title {
+    border-bottom: 30px solid  var(--lineup-color);
+    
+  }
+
+  .assessor-title {
+    border-bottom: 30px solid  var(--assessor-color);
+    
+  }
+
+  .referee-title {
+    border-bottom: 30px solid  var( --referee-color);
+    
+  }
+
+  .post-title {
+    border-bottom: 30px solid var(--post-color);
+  }
+
+  .pre-title {
+    border-bottom: 30px solid  var(--pre-color);
+  }
+
+  .pdf-title span {
+    position: relative;
+    top: 18px;
+  }
+
+  .table-pdf-header {
+    gap: 20px;
+    padding: 15px;
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--background-color);
+    background-color: var(--pdf-color);
+  }
+
+  .pdf-table-column {
+    gap: 20px;
+    padding: 15px;
+    display: flex;
+    font-size: 0.8rem;
+    overflow: hidden;
+    overflow-x: auto;
+    color: var(--pdf-color);
+    text-transform: capitalize;
+    background-color: var(--pdf-light);
+  }
+
+  .pdf-footer {
+    background-color: var(--pdf-color);
+    color: var(--background-color);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+  }
+
+  .pdf-footer h1 {
+    font-size: 1.2rem;
+    color: var( --general-color);
+  }
+  
+  .lineup-header h1 {
+    color: var(--lineup-color);
+  }
+
+  .assessor-header h1 {
+    color: var(--assessor-color);
+  }
+
+  
+  .referee-header h1 {
+    color: var(--referee-color);
+  }
+
+  .post-header h1  {
+    color:  var(--post-color);
+  }
+
+  .pre-header h1  {
+    color:  var(--pre-color);
+  }
+
+  .pre-header-i {
+    color:  var(--pre-color);
+  }
+
+  .pdf-footer h5 {
+    font-size: 0.8rem;
+    word-wrap: break-word;
+  }
+
+  .pdf-btn {
+    padding: 10px;
+  }
+
+  .btn1-b {
+    cursor: pointer;
+  }
+
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .pdf-container {
+    padding: 50px;
+  }
+  .pdf-header {
+    gap: 0;
+  }
+
+  .tplb-pdf {
+    height: 100px;
+  }
+
+  .tff-pdf,
+  .nbc-logo {
+    height: 120px;
+  }
+
+  .table-pdf-header {
+    justify-content: space-between;
+  }
+
+  .pdf-table-column {
+    justify-content: space-between;
+  }
+
+  .inner-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .inner-header h2 {
+    font-size: 1.8rem;
+  }
+  .pdf-title {
+    width: 20%;
+    font-size: 1rem;
+  }
+
+  .pdf-table-column {
+    font-size: 1rem;
+  }
+
+  .table-pdf-header {
+    font-size: 1rem;
+  }
+
+  .pdf-title span {
+    top: 20px;
+  }
+
+  .pdf-btn {
+    padding: 10px 50px;
+  }
+
+}

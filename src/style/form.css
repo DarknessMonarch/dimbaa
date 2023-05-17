@@ -1,0 +1,225 @@
+@media screen {
+  .form1-container {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+
+  .form1-container h1 {
+    width: 100%;
+    padding: 10px;
+    font-size: .8rem;
+    text-align: center;
+    background-color: var(--light-color);
+  }
+
+  .form1-wrapper {
+    gap: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+    border-bottom:4px solid var(--light-color) ;
+  }
+
+  .icon-out {
+    color: var(--primary-color);
+  }
+  
+  /* style change for form2  */
+
+  .f2-w {
+    border-bottom: none;
+  }
+
+  .count-down-w h3{
+    gap: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .count-d-c h3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .count-d-c1 h3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .count-down-w h3, label  {
+    font-size: .9rem;
+    font-weight: 100;
+  }
+  
+  .count-i {
+    gap: 4px;
+    display: flex;
+  }
+  
+
+ /* style change for form2  */
+
+  .form1-input {
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    background-color: var(--light-color);
+  }
+
+  .form1-w {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .form1-w, label {
+    font-size: 0.8rem;
+  }
+
+  .form1-i {
+    gap: 10px;
+    display: flex;
+    width: 100%;
+  }
+
+  .form1-input::placeholder {
+    font-size: 0.7rem;
+  }
+
+  .form1-input {
+    width: 100%;
+  }
+
+  .form1-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pl-fd8 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn1-center {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:  flex-start;
+
+  }
+
+  .btn1 {
+    border-radius: 5px;
+    padding: 10px 30px;   
+  }
+
+  .btn1-a {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--background-color);
+  }
+
+  .btn1-b {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+  }
+
+  .hide-m {
+    display: none;
+  }
+
+  .selected-psr {
+    width: 10%;
+    
+}
+
+.selected-psf {
+  width: 300px;
+}
+
+.filling {
+  background-color: #FFBF00;
+  border: #FFBF00;
+  color: var(--background-color);
+}
+
+
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) { 
+ .form1-container {
+    gap: 8px;
+    justify-content: space-between;
+
+}
+
+  /* style change for form2  */
+
+.count-down-w h3{
+    flex-direction: row;
+  }
+
+  .f2-i {
+    width: 60%;
+ }
+
+
+  /* style change for form2  */
+
+
+.form1-container h1 {
+    background-color: var(--background-color);
+}
+
+  .form1-wrapper {
+    flex-direction: row;
+    border-bottom: none;
+  }
+
+  .form1-w {
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form1-w label {
+    font-size: 0.8rem;
+  }
+
+  .form1-input {
+    width: fit-content;
+  }
+
+  
+  .form1-btn {
+    width: 50%;
+    padding-top:5%;
+    justify-content: space-between;
+  }
+
+  .hide-m {
+    display: flex;
+  }
+
+  .selected-psf {
+    width: 140px;
+  }
+
+  
+}

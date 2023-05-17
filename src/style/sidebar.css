@@ -1,0 +1,97 @@
+@media screen {
+    .side-component {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .start-component {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .side-link {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        padding: 15px 0;
+        align-items: center;
+        flex-direction: column;
+        border-left:4px solid var(--background-color);
+        border-top:4px solid var(--background-color);
+
+    }
+
+       
+    .side-link span {
+        font-size: .6rem;
+        color: var(--secondary-color);
+    }
+    
+    
+    .end-component {
+        width: 50%;
+        display: flex;
+    }
+    
+    
+    .router-link-exact-active{
+        border-top:4px solid var(--primary-color);
+    }
+    
+    .router-link-active .icon {
+        color:  var(--primary-color);
+    }
+    
+    .router-link-active span {
+        color:  var(--primary-color);
+    }
+
+    .disappear-link {
+        display: none;
+    }
+
+    /* when the extra nav shows */
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .side-component {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .start-component {
+        flex-direction: column;
+    }
+
+    .side-link span {
+        display: none;
+    }
+    
+    .end-component {
+        width: 100%;
+        flex-direction: column;
+
+    }
+    
+    
+    .router-link-active {
+        border: none;
+        border-left:4px solid var(--primary-color);
+    }
+
+       .icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+}

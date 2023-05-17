@@ -1,0 +1,123 @@
+@media screen {
+
+    .assess-container {
+        gap: 30px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .assess-container h2 {
+        font-size: 1rem;
+        color: var(--primary-color);
+    }
+    
+    .assess-container label {
+        font-weight: 600;
+    }
+    
+    
+    .assess-inner {
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .assess-wrapper {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .assess-i {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .assess-ir {
+        gap: 10px;
+        display: flex;
+        align-items: start;
+        height: fit-content;
+        flex-direction: column;
+    }
+    
+    .assess-i h1 {
+        font-size: 1rem;
+    }
+    
+    .assess-i li  {
+        gap: 4px;
+        display: flex;
+        font-size: .8rem;
+        flex-direction: column;
+    }
+    
+    .assess-inner2 {
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .assess-inner2  label {
+        font-size: .9rem;
+    }
+    
+    
+    .asses-inner2-r {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .inner2r-r {
+        width: 100%;
+        display: flex;
+    }
+    
+    .long-r {
+        display: flex;
+        width: 100%;
+    }
+    .short-r {
+        display: flex;
+        width: 100%;
+    }
+    
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .assess-container {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .assess-wrapper {
+        flex-direction: row;
+    }
+
+    .assess-inner {
+        width: 80%;
+    }
+
+    .assess-ir {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .inner8-r {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+}

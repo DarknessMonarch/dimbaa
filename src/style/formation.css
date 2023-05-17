@@ -1,0 +1,106 @@
+@media screen {
+    .formation-s {
+        gap: 10px;
+        height: 100vh;
+        display: flex;
+        padding: 20px 10px;
+        flex-direction: column;
+    }
+
+    .formation-con {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input-f-line{
+        background-color: var(--light-color);
+        color: var(--secondary-color);
+    }
+    
+    .formation-la {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .show-formation {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .f-f-a {
+        border: none;
+        height: 300px;
+    }
+    .img-formation {
+        width:100% ;
+        height:100%;
+        object-fit: contain;
+        object-position: center center;
+    }
+
+    .formation-input {
+        border: none;
+        padding: 15px 30px;
+        border-radius: 2px;
+        color: var(--dark-color);
+        background-color: var(--background-color);
+    }
+
+    .formation-input::placeholder {
+        color: var(--dark-color);
+
+    }
+
+    .input-f-img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        object-position: center center;
+    }
+
+    input::-webkit-file-upload-button {
+        width: 100%;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 5px;
+        color: var(--background-color);
+        background-color: var(--primary-color);
+    }
+
+    .tbl-formation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.tbl-img-formation {
+    height: 80px;
+
+}
+
+
+
+}
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    
+    .formation-la {
+        font-size: 1.2rem;
+    }
+
+    
+    .img-formation {
+        width:100% ;
+        height:100%;
+    }
+
+    .input-f-line{
+        background-color: var(--light-color);
+        color: var(--secondary-color);
+    }
+
+}

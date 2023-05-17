@@ -1,0 +1,93 @@
+@media screen {
+  .team-rs {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .team-u-form-wrapper {
+    gap: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .team-rs h1 {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .team-cut1 {
+    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+  }
+  
+  .team-u {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .team-u-label {
+    font-size: .8rem;
+  }
+  
+  .team-u-input {
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+  
+  .team-cut2 {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .team-u-btn {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn-u {
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+  
+  }
+  
+  .u-a {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+  
+  .u-r {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+  .team-cut1 {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+
+}

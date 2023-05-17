@@ -1,0 +1,138 @@
+@media screen {
+    .ra-qr {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+      
+}    
+    .ra1 {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        overflow: hidden;
+        overflow-x: auto;
+       
+    }
+
+    .Ra-container {
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .ra-db {
+        gap: 10px;
+        width: 100%;
+        height: 70px;
+        padding: 5px;
+        display: flex;
+        font-size: .7rem;
+        align-items: center;
+        flex-direction:column;
+        justify-content: space-between;
+
+    }
+
+    .rad-on {
+        background-color: var(--dark-color);
+    }
+
+    .checkmate {
+        gap: 10px;
+        height: 70px;
+        display: flex;
+        padding: 10px;
+        font-size: .7rem;
+        align-items: center;
+        flex-direction:column;
+        color: var(--background-color);
+        background-color: var(--primary-color);
+    }
+
+    .ra-dn {
+        width: 100%;
+        display: flex;
+    }
+
+    .inner-rp-qwe {
+        width: 100%;
+    }
+
+    .p-aq h1 {
+        font-size: 1rem;
+    }
+
+    .p-aq p {
+        font-size: .8rem;
+    }
+
+    .a-wrap p {
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .iwp {
+        width: 100%;
+    }
+
+    .pwq {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .p-aq2 {
+        width: 100%;
+    }
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) { 
+    .ra-qr {
+        flex-direction: row;
+
+    }
+    
+    .ra1 {
+        width: 30%;
+        padding:0;
+    }
+
+    .ra-db {
+        gap: 0;
+        height: 60px;
+        padding: 10px;
+        flex-direction:row;
+
+    }
+
+    
+    .iwp {
+        width: 70%;
+    }
+
+    
+    .checkmate {
+        gap: 0;
+        font-size: .8rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .Ra-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .ra-dn {
+        width: 70%;
+    }
+        
+    
+}

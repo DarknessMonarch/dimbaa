@@ -1,0 +1,44 @@
+@media screen {
+  .language-form {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .languageform-wrapper {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .languageform-wrapper h1 {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+
+  .languageinput {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+  }
+
+  .languageinput:hover {
+    border: 1px solid var(--primary-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+  .languageform-wrapper h1 {
+    font-size: 1.3rem;
+  }
+
+  .languageinput {
+    width: 100%;
+  }
+}

@@ -1,0 +1,120 @@
+@media screen {
+    
+    .pop-adduser-form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .match-form-wrapper {
+        gap: 20px;
+        display: flex;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+    .match-wrapper {
+        gap: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .match-wrapper1 , .match-wrapper2{
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .match-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .match-label {
+        font-size: .9rem;
+        font-weight: 100;
+    }
+    
+    
+    .match-input {
+        width: 50%;
+        border: none;
+        outline: none;
+        padding: 5px 10px;
+        color: var(--secondary-color);
+    }
+
+    
+  .labl-tans h3 {
+    background-color: var(--background-color);
+  }
+
+
+    .btn-f {
+        outline: none;
+        border: none;
+        padding: 10px 50px;
+        cursor: pointer;
+        border-radius: 5px;
+      
+      }
+
+      .btn-Vi {
+        margin: 10px;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: var(--background-color);
+        background-color: #26B3DF;
+      }
+      
+      .u-a {
+        color: var(--background-color);
+        background-color: var(--primary-color);
+      }
+      
+      .u-r {
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+      
+    }
+    
+    .match-btn-f {
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+    .pop-adduser-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .match-form-wrapper {
+        padding: 0 10px;
+    }
+    
+    .match-wrapper {
+        gap: 100px;
+        padding: 20px 0;
+    }
+    
+    .match-wrapper1 , .match-wrapper2{
+        width: fit-content;
+    }
+   
+ 
+    .match-btn-f {
+        gap: 100px;
+    }
+    .match-btn-f {
+        justify-content: space-between;
+    }
+}

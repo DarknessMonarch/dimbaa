@@ -1,0 +1,76 @@
+@media screen {
+  .form4-container {
+    gap: 40px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .f6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form4-con {
+    gap: 20px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+  }
+
+  .form4-wrapper {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form4-w {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  
+  .f4-w h3 {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+  }
+
+  .form5-i {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .form4-container {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form4-con {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form4-wrapper {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form4-w {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}

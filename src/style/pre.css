@@ -1,0 +1,65 @@
+@media screen {
+    .pre-r9 {
+        display: flex;
+        width: 100%;
+    }
+    .pre-i {
+        width: 100%;
+    }
+
+    .pre-o-form {
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .pre-o-form h1 {
+        color: var(--primary-color);
+    }
+
+    .pre-o-form h2 {
+        color: var(--primary-color);
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .pre-form1-w {
+        display: flex;
+        width: 100%;
+    }
+
+    .pre-fo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .final-re {
+        width: 100%;
+        display: flex;
+    } 
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .pre-r9 {
+        width: 80%;
+    }
+    .pre-i {
+        width: 70%;
+    }
+
+    .pre-form1-w {
+        width: 70%;
+    }
+
+    .pre-fo {
+        width: 70%;
+    }
+    
+    .final-re {
+        width: 50%;
+    } 
+        
+}

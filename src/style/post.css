@@ -1,0 +1,216 @@
+@media screen {
+  .match-fr {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .match-fr h1 {
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .match-wrapper {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .match-wp1 h2 {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .match-wp1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .df-e h2 {
+    background-color: yellow;
+    color: var(--secondary-color);
+    border-bottom: 4px solid var(--background-color);
+  }
+
+  .df-r h2 {
+    background-color: red;
+    color: var(--background-color);
+    border-bottom: 4px solid var(--background-color);
+  }
+
+  .match-sd {
+    gap: 5px;
+    display: flex;
+  }
+
+  .m-short {
+    width: 100%;
+  }
+
+  .match-in {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .match-in label {
+    padding: 10px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  .input-match {
+    border: none;
+    padding: 8px;
+    outline: none;
+    background-color: var(--light-color);
+  }
+
+  .icon-m {
+    color: var(--primary-color);
+  }
+
+  .match-info-we {
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .match-info-we h1 {
+    padding: 0;
+    display: flex;
+    font-size: 1rem;
+    text-align: start;
+  }
+
+  /* form 7  */
+  .match-rap {
+    gap: 30px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .match-rap h1 {
+    padding: 10px;
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .rap-con {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  .rap-c {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .ra-d {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.r-ad {
+    gap: 10px;
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.r-ad label {
+    display: flex;
+    background-color: var(--background-color);
+}
+
+.ra {
+    padding:20px;
+    width: 100%;
+}
+
+.post-cp1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-1 h1 {
+  font-size: .8rem;
+}
+
+
+
+  /* form 7  */
+}
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .match-fr {
+    align-items: stretch;
+  }
+
+  .match-wrapper {
+    gap: 0;
+    flex-direction: row;
+  }
+  
+  .match-rap h1 {
+    padding: 10px;
+  }
+
+  .m-short {
+    width: 80px;
+  }
+
+  .match-info-we {
+    width: 25%;
+  }
+
+  
+  .rap-con {
+    align-items: center;
+  }
+
+  .rap-c {
+    flex-direction: row;
+  }
+
+  .r-ad {
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .match-rap {
+    align-items: center;
+  }
+
+.r-ad label {
+    padding:50px 20px;
+    background-color: var(--dark-color);
+}
+
+
+.ra {
+    padding:50px 20px;
+    width: fit-content;
+}
+
+}

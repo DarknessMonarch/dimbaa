@@ -1,0 +1,137 @@
+@media screen {
+    
+.detail-container {
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.detail-container h2 {
+    color: var(--primary-color);
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+
+.d-label {
+    display: flex;
+    font-size: .8rem;
+    color: var(--primary-color);
+}
+
+.d-form {
+    gap: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.d-container1 {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.detail-view {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-wrapper {
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.d-input {
+    width: 50%;
+    border: none;
+    display: flex;
+}
+
+.detail-btn-f {
+    gap: 20%;
+    padding:40px 0;
+    display: flex;
+}
+
+.general-btn {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.btn-g {
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.g-a {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+
+.g-u {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    background-color: var(--background-color);
+}
+
+.selected-ps {
+    width: 100%;
+    border: none;
+    display:flex ;
+    padding: 10px;
+    background-color: var(--light-color);
+    
+}
+
+
+
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+      
+.detail-container {
+    padding: 40px 0;
+}
+
+.d-label {
+    display: flex;
+    font-size: .9rem;
+}
+
+.d-form {
+    flex-wrap: wrap;
+}
+
+.d-wrapper {
+    align-items: center;
+    flex-direction: row;
+}
+
+.d-input {
+    width: 50%;
+    padding: 10px 8px;
+    background-color: var(--light-color);
+}
+
+.general-btn {
+    padding: 70px;
+    justify-content: space-evenly;
+}
+
+.selected-ps {
+    width: 50%;
+    
+}
+
+
+
+}

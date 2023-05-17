@@ -1,0 +1,101 @@
+@media screen {
+    .match-w1 {
+        width: 100%;
+        display: flex;
+        padding: 20px 0;
+        overflow: hidden;
+        overflow-x: auto;
+        justify-content: center;
+        
+    }
+
+    .w1-container {
+        gap: 5px;
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        color:var(--background-color) ;
+
+    }
+
+    .w-dadi {
+        display: flex;
+        width: 30%;
+    }
+
+    .w1-container label {
+        height: 45px;
+        display: flex;
+        font-size: .8rem;
+        padding: 10px 30px;
+        background-color: var(--primary-color);
+    }
+
+    .w1-container label  span {
+        display: none;
+    }
+
+    .w1-container h3 {
+        font-size: .8rem;
+    }
+
+    .w1-input {
+        height: 40px;
+        border: none;
+        display: flex;
+        outline: none;
+        padding: 10px;
+        font-size: .8rem;
+        align-items: center;
+        justify-content: flex-start;
+        color: var(--secondary-color);
+        background-color: var(--light-color);
+    }
+
+    .check-w1 {
+        padding: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .match-w1 {
+        padding: 0;
+        
+    }
+    .w1-container {
+        padding: 2px;
+
+    }
+
+    .w1-container h3 {
+        font-size: .8rem;
+    }
+
+    .w-dadi {
+        display: flex;
+        width: 5%;
+    }
+
+    .w1-container label {
+        padding: 12px 20px;
+    }
+
+    .w1-container label  span {
+        display: flex;
+    }
+
+
+    .w1-input {
+        justify-content: flex-start;
+    }
+    .check-w1 {
+        padding: 11px;
+        justify-content: center;
+    }
+    
+}

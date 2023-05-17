@@ -1,0 +1,123 @@
+@media screen {
+.side-drawer-component {
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    height:80%;
+    position: fixed;
+    overflow-y: auto;
+    padding: 40px 20px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: var(--background-shadow);
+    background-color: var(--light-color);
+    
+}
+
+.side-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-container h1 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.exit-circle {
+    background-color: var(--light-color);
+    box-shadow:none;
+    position: fixed;
+    opacity: 50%;
+    top: 40px;
+}
+
+.exit-circle:hover {
+    background-color: var(--primary-color);
+}
+
+.exit-circle:hover .icon {
+    color: var(--background-color);
+}
+
+.open-drawer {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+.close-drawer {
+    box-shadow: none;
+    bottom: fit-content;
+    width: 100%;
+    bottom: -100%;
+
+}
+
+.open-filter-drawer {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+.close-filter-drawer {
+    box-shadow: none;
+    bottom: fit-content;
+    width: 100%;
+    bottom: -100%;
+
+}
+
+
+.close-drawer .exit-circle {
+    top: 0;
+    position: relative;
+}
+
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+
+
+.side-drawer-component {
+    top: 0;
+    height: 100%;
+    border-radius: 0;
+}
+
+.side-container {
+    flex-direction: row;
+}
+
+
+
+.exit-circle {
+    position: relative;
+    opacity: 100%;
+    top: 0;
+    
+}
+
+.open-drawer {
+    width: var(--side-drawer-width);
+}
+
+.close-drawer {
+    left: -500%;
+    width:0px;
+    bottom: 0;
+}
+
+.open-filter-drawer {
+    width: var(--side-drawer-width);
+}
+
+.close-filter-drawer {
+    left: -500%;
+    width:0px;
+    bottom: 0;
+}
+
+}

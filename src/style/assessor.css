@@ -1,0 +1,174 @@
+@media screen {
+  .desktop-info {
+    display: none;
+  }
+  .c-ra {
+    padding: 5px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  .icon-ra {
+    width: 28px;
+    height: 28px;
+    color: var(--background-color);
+  }
+
+  .form1-ra {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .form1-ra h1 {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+
+  .ra-conquer {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    justify-content: start;
+  }
+
+  .ri-rc {
+    width: auto;
+    display: flex;
+  }
+
+  .short-ra {
+    width: 100px;
+  }
+
+  .short-1ra {
+    width: 140%;
+  }
+
+  .short12ra {
+    width: 150px;
+  }
+
+  .mobile-info {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* pop css  */
+
+  .info-detail-r {
+    gap: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-detail-r p {
+    font-size: 0.8rem;
+  }
+
+  .info-detail-r h4 {
+    font-weight: 100;
+    font-size: 0.8rem;
+  }
+
+  .info-detail-r span {
+    padding-right: 5px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+
+  .info-add-r {
+    gap: 5px;
+    display: none;
+    flex-direction: column;
+  }
+
+  .info-add-r p {
+    color: var(--dark-color);
+  }
+
+  /* pop css  */
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+    .desktop-info {
+        display: flex;
+      }
+    .c-ra {
+    padding: 5px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+
+  .icon-ra {
+    width: 28px;
+    height: 28px;
+    color: var(--background-color);
+  }
+
+  .form1-ra {
+    gap: 6px;
+    width: 100%;
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .form1-ra h1 {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+
+  .ra-conquer {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    justify-content: center;
+  }
+
+  .ri-rc {
+    width: auto;
+    display: flex;
+  }
+
+  .short-ra {
+    width: 100px;
+  }
+
+  .short-1ra {
+    width: 100%;
+  }
+
+  .short12-ra {
+    width: 100%;
+  }
+
+  .mobile-info {
+    display: none;
+  }
+
+  /* pop css  */
+    .info-detail-r p {
+    font-size: 1rem;
+  }
+
+  .info-add-r {
+    display: flex;
+  }
+
+  /* pop css  */
+}

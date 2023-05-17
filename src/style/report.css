@@ -1,0 +1,325 @@
+@media screen {
+    .r1 {
+        display: flex;
+        padding: 10px;
+        align-items: start;
+    }
+
+    .r1 h2 {
+    
+        font-weight: 100;
+        font-size: .8rem;
+        text-align: center;
+        padding-bottom:15px ;
+    }
+
+    button[disabled]{
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+      }     
+
+    .form-ark {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .form9-r span {
+        font-size: .8rem;
+    }
+    .r-8 {
+        gap: 20px;
+    }
+
+    .i-r9 {
+        width: 100%;
+    }
+
+    .r9 {
+      
+        border-bottom:none ;
+    }
+
+    .r12 {
+        gap: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .r-conquer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form-n-b {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        padding: 10px;
+        border-radius: 180px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .report-nav {
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .r-f {
+        border-bottom: none;
+    }
+
+    .short-r {
+        width: 50%;
+    }
+
+    .r-form-i {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+
+    .r-input {
+        gap: 10px;
+        display: flex;
+        text-align: end;
+        align-items: start;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form8-r {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form8-r label {
+        text-align: left;
+        font-size:.7rem;
+    }
+
+    .short-r8 {
+        width: 80%;
+    }
+
+    .r-short {
+        width: 100%;
+    }
+
+    
+    /* css for Form A  */
+    
+    .referee-inner-x {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .r9 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .form9-r {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    /* css for Form A  */
+    
+    /* css for Form 12  */
+       
+    .f12-contain {
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f12-divide {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f13-f {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .f12-r {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .f12-f{
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .report-12 {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* css for Form 10 */
+
+    .r10-c {
+        gap: 10px;
+        display: flex;
+
+    }
+    .report-12 {
+        gap: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .short12 {
+        width: 50%;
+    }
+
+    .spa-hide {
+        visibility: hidden;
+    }
+
+    .player-picacho {
+        height: 50px;
+    }
+
+    /* css for Form 10  */
+
+
+}
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) { 
+    .r1 {
+        align-items: flex-start;
+        text-align: flex-start;
+    }
+
+    .r12 {
+        gap: 40px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+    .r9 {
+        width: 50%;
+     }
+    .r-conquer {
+        flex-wrap: nowrap;
+    }
+
+    .r-form-i {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .f13-f {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .i-r13 {
+        width: 30%;
+    }
+    
+    .f12-contain {
+        
+        width: fit-content;
+        flex-direction: row;
+    }
+
+        /* css for Form 10 */
+        .short12 {
+            width: fit-content;
+        }
+
+        .ri-hide label {
+            display: none;
+        }
+
+        /* css for Form 10 */
+
+    .f12-r {
+        flex-direction: row;
+    }
+
+    .r-input {
+        text-align: center;
+        align-items: center;
+    }
+
+    
+    .r-short {
+        width: 80%;
+    }
+
+    /* css for Form A  */
+
+    .form9-r {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .i-r8 {
+        width: 60%;
+        display: flex;
+        align-items: center;;
+    }
+
+        
+    .referee-inner-x {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+    /* css for Form A  */
+
+    
+    .report-nav {
+        gap: 40px;
+        width: 100%;
+        display: flex;
+        padding-left: 350px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+    
+}

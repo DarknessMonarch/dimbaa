@@ -1,0 +1,48 @@
+@media screen {
+    .about-container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .about-wrapper {
+        gap: 5px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
+      
+      .about-wrapper h1 {
+        text-transform: capitalize;
+        color: var(--primary-color);
+        font-size: 1.6rem;
+      }
+      
+      .about-wrapper h2 {
+        text-transform: capitalize;
+        font-size: .7rem;
+      }
+      
+      .text-abt-wrapper p {
+        font-size: 1rem;
+        color: var(--dark-color);
+      }
+      
+}
+
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+       
+    .about-wrapper h1 {
+        text-transform: capitalize;
+        color: var(--primary-color);
+        font-size: 2rem;
+      }
+      
+      .about-wrapper h2 {
+        text-transform: capitalize;
+        font-size: 0.9rem;
+      }
+  
+}

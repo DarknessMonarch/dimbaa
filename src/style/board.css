@@ -1,0 +1,139 @@
+@media screen {
+  .dashboard-container {
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+ 
+  }
+
+  .dashbar {
+    width: 100%;
+    border-right: 2px solid var(--primary-color);
+  }
+
+  .icon-c {
+    color: var(--light-color);
+  }
+
+  .inner-container {
+    width: 100%;
+    border: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .inner-component {
+    width: 100%;
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+  }
+
+  .inner-component:hover {
+    color: var(--primary-color);
+    background-color: var(--light-color);
+  }
+
+  .inner-component:hover .icon {
+    color: var(--primary-color);
+  }
+
+  .inner-component span {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .active {
+    border-top: 2px solid var(--primary-color);
+    background-color: var(--light-color);
+  }
+
+  .active .icon {
+    color: var(--primary-color);
+  }
+
+  .inner-i {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .a-icon {
+    display: none;
+  }
+
+  .inner-i span {
+    display: none;
+  }
+
+  .main-dash {
+    flex: calc(100% - var(--dash-board-width));
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .dashboard-container {
+    flex-direction: row;
+  }
+
+  .icon-c {
+    color: var(--secondary-color);
+  }
+
+  .dashbar {
+    flex: var(--dash-board-width);
+    border-right: 2px solid var(--light-color);
+  }
+
+  .active {
+    border-top: none;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+    border-bottom: 2px solid var(--light-color);
+  }
+
+  .active .icon {
+    color: var(--primary-color);
+  }
+
+  .inner-container {
+    justify-content: start;
+  }
+
+  .inner-component {
+    justify-content: space-between;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--light-color);
+  }
+
+  .inner-component:hover {
+    color: var(--primary-color);
+    background-color: var(--light-color);
+  }
+
+  .inner-container {
+    flex-direction: column;
+  }
+
+  .a-icon {
+    display: flex;
+  }
+
+  .inner-i span {
+    display: flex;
+  }
+
+  .main-dash {
+    overflow-y: auto;
+  }
+}

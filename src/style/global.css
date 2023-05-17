@@ -1,0 +1,151 @@
+@media screen {
+  * {
+    /* dynamic style */
+    --pdf-color:rgb(36, 34, 71);
+    --pdf-light:rgb(228, 228, 242);
+    --general-color: rgb(20, 182, 114);
+    --post-color: rgb(255, 153, 11);
+    --pre-color: rgb(237, 94, 7);
+    --referee-color: rgb(236, 0, 142);
+    --assessor-color: rgb(47, 0, 236);
+    --lineup-color: rgb(247, 0, 1);
+    --secondary-color: rgb(61, 54, 61);
+    --light-color: rgb(244, 240, 244);
+    --dark-color: rgb(204, 201, 204);
+    --primary-color: rgb(240, 114, 36);
+    --background-color: #ffffff;
+    --primary-darken-color: rgb(212, 109, 44);
+    --background-shadow:0 0 0 10000px rgba(10, 10, 12, 0.5);
+    --box-shadow-style: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    --search-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    /* default font  */
+    @font-face {
+      font-family: "icomoon";
+      src: url("/fonts/icomoon.eot");
+      src: url("/fonts/icomoon.svg") format("svg");
+      src: url("/fonts/icomoon.ttf") format("ttf");
+      src: url("/fonts/icomoon.woff") format("woff");
+    }
+
+    /* reseting everything */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    /* global-width */
+    --auth-width:40%;
+    --side-bar-width: 6%;
+    --dash-board-width: 20%;
+    --side-drawer-width: 30%;
+    --side-bar-mobile-width: 10%;
+    --side-drawer-mobile-width:70%;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    font-weight: 300;
+    color: var(--secondary-color);
+    font-family: "icomoon", sans-serif;
+    background-color: var(--background-color);
+  }
+
+  a,
+  router-link {
+    text-decoration: none;
+  }
+
+  input {
+    outline: none;
+  }
+
+  button {
+    outline: none;
+    border: none;
+  }
+
+  input:focus,
+  input:hover {
+    outline: none;
+  }
+
+  .icon {
+    height:32px;
+    width: 32px;
+    color: var(--secondary-color);
+  }
+
+  .icon-home {
+    height:24px;
+    width: 24px;
+  }
+
+  .icon-notification {
+    height:24px;
+    width: 24px;
+  }
+
+  .dashboard-icon {
+    height:24px;
+    width: 24px;
+  }
+
+  .edit-icon {
+    height:24px;
+    width: 24px;
+  }
+
+  
+  .about-icon {
+    height:24px;
+    width: 24px;
+  }
+
+  .settings-icon {
+    height:24px;
+    width: 24px;
+  }
+
+  select {
+    outline: none;
+  }
+
+  html.coffee {
+    filter: sepia(0.9) hue-rotate(315deg) brightness(0.9);
+  }
+
+  html.contrast {
+    filter: contrast(2);
+  }
+
+  html.dark {
+    filter: invert(80%) hue-rotate(180deg);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  
+  .icon {
+    height: 24px;
+    width: 24px;
+    color: var(--secondary-color);
+  }
+  
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}
